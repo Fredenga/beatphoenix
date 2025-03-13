@@ -10,6 +10,7 @@ defmodule BeatphoenixWeb.LandingLive.Index do
   def render(assigns) do
     ~H"""
     <.navbar/>
+    <.hero/>
     """
   end
 end
